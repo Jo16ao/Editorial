@@ -1,0 +1,71 @@
+╔═══════════════════════════════════════╗
+║        GESTIÓN EDITORIAL v1.0         ║
+║           📚 PROYECTO 📚              ║
+╚═══════════════════════════════════════╝
+
+===========================================
+            INFORME TÉCNICO
+===========================================
+Desarrollado por: Gustavo Joao Paulino Salas
+Fecha: Febrero 2024
+Estado: Funcional y listo para producción básica
+
+📁 ESTRUCTURA DEL PROYECTO
+├── app.py              → Interfaz de usuario
+├── main.py             → Punto de entrada
+├── queries/            → Lógica de negocio
+│   ├── libro_queries.py
+│   ├── autor_queries.py
+│   └── editorial_queries.py
+└── test_connection.py  → Verificación BD
+
+🛠️ FUNCIONALIDADES PRINCIPALES
+• CRUD completo para libros
+• Consultas avanzadas con JOINs
+• Búsqueda parcial por título
+• Gestión de autores y editoriales
+• Interfaz amigable con emojis
+
+🔧 TECNOLOGÍAS UTILIZADAS
+• Python 3.x
+• MySQL / SQLite
+• MySQL Connector/Python
+
+🎯 OBJETIVO DEL SISTEMA
+Administrar catálogo editorial completo
+Consultar información integrada de:
+  - Libros
+  - Autores
+  - Editoriales
+Mantener integridad de datos
+
+⚙️ CARACTERÍSTICAS TÉCNICAS
+• Arquitectura modular MVC adaptada
+• Separación clara de responsabilidades
+• Validación robusta de entradas
+• Protección contra inyección SQL
+• Código documentado en español
+
+🚀 POSIBLES MEJORAS FUTURAS
+• Exportación a CSV/Excel
+• Estadísticas de popularidad
+• Interfaz web o gráfica
+• Sistema de préstamos
+• Dockerización
+
+===========================================
+
+╔═══════════════════════════════════════╗
+║         🙏 ¡MUCHAS GRACIAS! 🙏        ║
+║    Por confiar en este sistema de     ║
+║        Gestión Editorial              ║
+║                                       ║
+║        📞 Contacto:                   ║
+║        Gustavo J.P. Salas             ║
+║        Versión 1.0.0                  ║
+╚═══════════════════════════════════════╝
+
+===========================================
+        "Organizando ideas, 
+         gestionando conocimiento"
+===========================================
